@@ -1,0 +1,122 @@
+body{
+
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	}
+
+h2{
+	
+	font-size: 45px;
+	color: yellow;	
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+#cajaformulario{ 
+	margin-top: 75px;
+
+  	height: 100%;
+   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+
+	vertical-align: center;
+	align-content: center;
+	background: rgba(0,0,0,0.5);
+
+
+}
+table td{
+	font-size: 20px;
+	text-align: center;
+	color: orange;
+	border-radius: 5px;
+
+
+}
+table th{
+	font-size: 20px;
+	text-align: center;
+	color: orange;
+	border-radius: 5px;
+}
+
+table	{
+	border-radius: 10px;
+}
+
+input{
+	font-size: 20px;
+	background: rgba(0,0,0,0.5);
+	border: none;
+	color: white;
+}	
+#enviar	{
+	font-size: 50px;
+	margin-top: 7px;	
+	border-radius: 10px;
+	color: white;
+	background-color: orange;
+
+}
+
+nav ul li{
+  color: white;
+	border-radius: 5px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;5	font-weight: bold;
+	margin-right: 60px;
+	text-align: center;
+	text-shadow: 0px 1px 0px #3E3E3E;
+
+
+}
+nav{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));
+	background-image: linear-gradient(top, #FFF, #CCC);
+	overflow: hidden;
+	padding: 10px;
+	text-align: center;
+
+}
+nav ul{
+	list-style: none;
+	margin: 0 10px 0 10px;
+	padding: 0;
+  color: white;
+  text-align: center;
+
+}
+
+nav ul li:hover{
+	
+	box-shadow: 1px -1px 0px #999;
+	border:1px solid #E3E3E3;
+}
+nav ul li a{
+	text-align: center;
+
+	color: #1E52B6;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	transition: 0.4s linear all;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+
+a:active{
+  color: yellow;
+}
